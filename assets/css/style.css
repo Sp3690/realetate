@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    max-width: 2000px;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+}
+
+
+header {
+    background-image: url(/assets/images/hero\ jpg.jpg);
+    height: 965px;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+.navbar {
+    padding: 10px 20px;
+}
+
+.navbar-brand img {
+    height: 30px;
+    /* Adjust logo size */
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #00D4FF !important;
+    /* Light blue on hover */
+}
+
+.contact-info {
+    color: white;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.usericon {
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    padding: 9px;
+    font-size: 10px;
+    margin-right: 20PX;
+}
+
+.btn-custom {
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 50px;
+    padding: 7px 26px;
+    background: transparent;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #2b6676;
+    /* Slightly darker blue on hover */
+}
+
+.dropdown-menu {
+    background-color: transparent;
+    border: none;
+    /* Match navbar background */
+}
+
+.dropdown-item {
+    color: white !important;
+}
+
+.dropdown-item:hover {
+    background-color: #2b6676;
+    /* Light blue on hover */
+    color: white !important;
+}
+
+/* hero content start */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 900px;
+}
+
+.content h1 {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 78px;
+    width: 599.33px;
+    color: white;
+
+}
+
+.content span {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 78px;
+    color: rgba(231, 200, 115, 1);
+}
+
+.content p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: white;
+}
+
+.content .btn {
+    color: rgba(231, 200, 115, 1);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+
+}
+
+/* hero content end  */
